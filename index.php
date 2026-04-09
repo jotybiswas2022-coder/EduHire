@@ -7,7 +7,7 @@ define('LARAVEL_START', microtime(true));
 
 // Determine if the application is in maintenance mode...
 if (file_exists($maintenance = __DIR__.'/core/storage/framework/maintenance.php')) {
-    require $maintenance; hello world
+    require $maintenance;
 }
 
 // Register the Composer autoloader...
